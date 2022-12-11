@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "game-portfolio",
+    "game-portfolio": "game-portfolio-36a49"
+  },
+  "targets": {},
+  "etags": {}
+}
