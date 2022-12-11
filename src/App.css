@@ -1,34 +1,35 @@
 :root {
-    --button: blue;
-    --button-text: white;
-    --button-hover: lightblue;
+  --button: blue;
+  --button-text: white;
+  --button-hover: lightblue;
 }
 
-body, html {
-    margin: 0;
+body,
+html {
+  margin: 0;
 }
 
 .btn {
-    margin: 0.5rem;
-    border: none;
-    background-color: var(--button);
-    color: var(--button-text);
-    padding: 0.5rem;
-    box-shadow: 0 0 0 black;
-    transition: 0.1s;
-    text-decoration: none;
+  margin: 0.5rem;
+  border: none;
+  background-color: var(--button);
+  color: var(--button-text);
+  padding: 0.5rem;
+  box-shadow: 0 0 0 black;
+  transition: 0.1s;
+  text-decoration: none;
 }
 
 .btn:hover {
-    box-shadow: 0 3px 3px black;
-    transform: translateY(-3px);
-    background-color: lightblue;
-    color: black;
+  box-shadow: 0 3px 3px black;
+  transform: translateY(-3px);
+  background-color: lightblue;
+  color: black;
 }
 
 .btn:active {
-    box-shadow: 0 0 0 black;
-    transform: translateY(0);
-    background-color: var(--button);
-    color: var(--button-text);
+  box-shadow: 0 0 0 black;
+  transform: translateY(0);
+  background-color: var(--button);
+  color: var(--button-text);
 }
